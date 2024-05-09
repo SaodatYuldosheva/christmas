@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a ,span, label{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    padding: 70px 60px ;
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-bottom: 80px;
+}
+.word{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.rasm1{
+    width: 14%;
+    text-align: start;
+}
+.right{
+    margin-left: 620px;
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    column-gap: 20px;
+}
+.one{
+    padding: 2px 30px;
+    border: none;
+    border: 2px solid ;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.two{
+    padding: 2px 18px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    box-shadow: 4 4 5 4 rgba(182, 182, 9, 0.829);
+}
+.rasm{
+    width: 100%;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.box1{
+    margin: 30px;
+    background-color: aliceblue;
+    width: 26%;
+    text-align: start;
+}
+.button{
+    padding: 10px 15px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.sum{
+    margin: 10px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+}
+.text{
+    margin: 10px;
+
+}
+.line{
+    height: 1px ;
+    background-color: rgb(146, 142, 142);
+    width: 100%;
+}
+.box2{
+    text-align: start;
+    margin: 10px;
+}
+.titles{
+    margin-bottom:10px ;
+    font-size: 25px;
+}
+
+.texts{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+.bnm{
+    font-size: 20px; 
+    text-align: start;
+    margin-top:20px;
+}
+.boxx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    margin-left: 1000px;
+    position: relative;
+}
+.rasmm{
+    width: 25%;
+    text-align: right;
+    position: fixed;
+}
+.rassm{
+    opacity: 0;
+}
+.beeline{
+    font-size: 20px;
+    margin-top:20px;
+}
+.btn{
+    align-items: right;
+    margin-left: 1230px;
+    border: none;
+    background-color: yellow;
+    padding: 8px 7px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.katta{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  
+}
+.bir{
+    width: 20%;
+    border: none;
+    background-color: transparent;
+    border-radius: 25%;
+}
+.img{
+    border-radius: 50%;
+    width: 50%;
+    border: 2px solid yellow;
+    margin-left: 675px;
+}
+form{
+
+    width: 15%;
+    border: none;
+}
+.input{
+    border: none;
+   
+}
+.link{
+    margin-left: 200px;
+}
+.xx{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: -120px;
+    margin-bottom: 180px;
+    margin-left: 450px;
+}
+.kichik{
+    border-radius: 30px;
+    background-image: url(christmas.jpeg);
+    width: 35%;
+    height: 250px;
+    text-align: right;
+    position: static;
+    right: 20px;
+    bottom: 10px; 
+    margin-left: 800px;
+    opacity: 0;
+}
+.new{
+    opacity: 1;
+}
+@media(max-width:600px){
+    .top{
+        width: 100%;
+        text-align: center;
+        color: red;
+        font-size: 30px;
+    }
+    .imgs{
+        width: 50%;
+    }
+}
+@media(max-width:500px){
+    .box1{
+        width: 100%;
+    }
+    .titles{
+        text-align: center;
+    }
+    .imgs{
+        width: 25%;
+    }
+}
+
